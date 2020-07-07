@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Contas</title>
+</head>
+<body>
+<h1> olá, seja bem-vindos</h1>
+Agora são: {{ now }}
+<br>
+<hr>
+{% for transacao in transacoes %}
+    {% if transacao == "t1" %}
+    <h1>{{ transacao }}</h1>
+    {% else %}
+        {{ transacao }}
+    {% endif %}
+{% endfor %}
+<hr>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-#!/home/daniel/projetos/django20/venv/bin/python
+#!/home/daniel/PycharmProjects/django20/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

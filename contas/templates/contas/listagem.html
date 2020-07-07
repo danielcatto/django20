@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contas</title>
+</head>
+<body>
+<h1>Listagem das transações</h1>
+
+<Br>
+<ul>
+{% for transacao in transacoes %}
+<li>    {{ transacao.descricao }} - R${{ transacao.valor }} - {{ transacao.data }} - {{transacao.categoria }} </li>
+{% endfor %}
+</ul>
+</body>
+</html>

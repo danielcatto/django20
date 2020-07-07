@@ -1,4 +1,4 @@
-#!/home/daniel/projetos/django20/venv/bin/python
+#!/home/daniel/PycharmProjects/django20/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":
