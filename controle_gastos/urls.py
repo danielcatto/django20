@@ -19,13 +19,14 @@ from django.urls import path
 from contas.views import home
 from contas.views import contato
 from contas.views import cadastro_usuarios
-from contas.views import listagem
-
+from contas.views import listagem, nova_transacao
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', listagem),
+    path('', listagem, name='url_listagem'),
     path('contato/', contato),
     path('cadastro_usuarios/', cadastro_usuarios),
     path('home/', home),
+    path('nova', nova_transacao)
+
 
 ]
